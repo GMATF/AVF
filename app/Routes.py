@@ -7,6 +7,14 @@ app = Flask ( __name__ )
 def index():
     return render_template('index.html')
 
+@app.route('/about' , methods=['GET'])
+def about():
+    return render_template('about.html')
+
+@app.route('/services' , methods=['GET'])
+def services():
+    return render_template('services.html')
+
 @app.route('/contact' , methods=['GET'])
 def contact():
     return render_template('contact.html')
