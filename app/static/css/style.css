@@ -290,7 +290,9 @@ button {
 .more_bt {
     width: 170px;
     float: left;
+
 }
+
 
 .more_bt a {
     width: 100%;
@@ -303,10 +305,13 @@ button {
     border-radius: 40px;
     text-transform: uppercase;
     font-weight: bold;
+    
 }
 .more_bt a:hover {
     color: #000;
-    border: 2px solid #ff5a58;
+    border: 2px solid #4aafff;
+    transform: scale(1.1);
+
 }
 .contact_bt {
     width: 170px;
@@ -328,6 +333,8 @@ button {
 .contact_bt a:hover {
     color: #181818;
     border: 2px solid #ff5a58;
+    transform: scale(1.1);
+    
 }
 .services_section {
     width: 100%;
