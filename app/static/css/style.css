@@ -398,6 +398,7 @@ button {
 .moremore_bt a:hover {
     color: #181818;
     border: 2px solid #ff5a58;
+    transform: scale(1.1);
 }
 .image_1{
     width: 100%;
@@ -503,6 +504,7 @@ button {
 .moremore_bt_1 a:hover {
     color: #ffffff;
     border: 2px solid #ffffff;
+
 }
 .project_section{
     width: 100%;
