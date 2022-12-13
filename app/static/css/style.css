@@ -905,3 +905,104 @@ button {
 .margin_top_90{
   margin-top: 90px;
 }
+/*card view with flip*/
+.card-flip-section{
+    margin: 3em;
+    
+}
+.flip-card {
+    background-color: transparent;
+    max-width: 350px;
+    min-width: 250px;
+    height: 450px;
+    border: 1px transparent #f1f1f1;
+    margin: 1vw;
+    margin-left: 1vw;
+
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+
+    position: absolute;
+    
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    padding: 5px;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-color: rgba(255, 0, 0, 0.521);
+    color: black;
+  } 
+  
+  /* Style the back side */
+  .flip-card-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+  .service-image{
+    width:inherit;
+    height:50%;
+    border-radius: 10px;
+    image-orientation: calc(blue, inherit);
+
+  }
+
+
+  .front-title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1em;
+  }
+
+  .service-rate{
+    margin-top: 1.2em;
+    border-top: 1px solid black;
+    width: 75%;
+    margin-left: 12.5%;
+    
+  }
+
+  .service-button{
+    width: 170px;
+    margin-left: 15px;
+
+  }
+  .service-button a{
+    position: absolute;
+    right: 25%;
+    width: 50%;
+    margin-top: 2em;
+    font-size: 16px;
+    float: left;
+    color: #181818;
+    border: 2px solid #4aafff;
+    text-align: center;
+    padding: 10px 0px;
+    border-radius: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
