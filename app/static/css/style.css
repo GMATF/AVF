@@ -912,8 +912,8 @@ button {
 }
 .flip-card {
     background-color: transparent;
-    max-width: 350px;
-    min-width: 250px;
+    max-width: 450px;
+    min-width: 350px;
     height: 450px;
     border: 1px transparent #f1f1f1;
     margin: 1vw;
@@ -1005,4 +1005,17 @@ button {
     border-radius: 40px;
     text-transform: uppercase;
     font-weight: bold;
+  }
+
+  @media screen and (max-width: 450px) {
+    .flip-card {
+        max-width: max-content;
+        min-width: 250px;
+        max-height:65vh;
+        min-height: 50vh;
+        margin: 1vw;
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+    }
+    
   }
