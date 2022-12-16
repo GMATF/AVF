@@ -1090,6 +1090,9 @@ button {
 
 @media screen and (max-width: 450px) {
     .about_container {
+        margin: 0 0;
+        max-width: max-content;
+        min-width: 250px;
         display: flex;
         flex-direction: column;
     }
