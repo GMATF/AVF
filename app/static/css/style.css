@@ -907,7 +907,15 @@ button {
 }
 /*card view with flip*/
 .card-flip-section{
-    margin: 3em;
+    /* margin: 3em; */
+    /* border: 2px solid red; */
+    /* background-image: url(../images/services-bg.png); */
+    /* padding-top: 5rem; */
+    background-image: url(../images/services-bg.png);
+    height: auto;
+    margin-top: 75px;
+    padding-bottom: 60px;
+    background-size: 100%;
     
 }
 .flip-card {
@@ -1053,7 +1061,7 @@ button {
     align-items: center;
     border-radius: 0 0 15px 15px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    width: 250px;
+    width: 350px;
     padding-bottom: 15px;
     background-color: white;
     margin: 5rem 0;
