@@ -911,6 +911,7 @@ button {
     /* border: 2px solid red; */
     /* background-image: url(../images/services-bg.png); */
     /* padding-top: 5rem; */
+    width:100%;
     background-image: url(../images/services-bg.png);
     height: auto;
     margin-top: 75px;
@@ -1015,6 +1016,13 @@ button {
     font-weight: bold;
     margin-inline: 4rem;
 }
+
+ @media screen and (max-width: 1280px) {
+    .card-flip-section{
+    background-repeat: no-repeat
+    }
+    
+ }
 
   @media screen and (max-width: 450px) {
     .flip-card {
