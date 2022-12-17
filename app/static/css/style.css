@@ -912,13 +912,12 @@ button {
 }
 .flip-card {
     background-color: transparent;
-    max-width: 450px;
-    min-width: 350px;
-    height: 450px;
+    max-width: 50rem;
+    min-width: 23rem;
+    height: 28rem;
     border: 1px transparent #f1f1f1;
     margin: 1vw;
     margin-left: 1vw;
-
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
   }
   
@@ -935,8 +934,14 @@ button {
   /* Do an horizontal flip when you move the mouse over the flip box container */
   .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
+    /* box-shadow: 0 4px 8px 10px rgba(153, 0, 255, 0.425), 0 6px 20px 10px rgba(255, 0, 0, 0.397); */
+    border-collapse: collapse;
+
   }
-  
+  .flip-card-inner:hover{
+    border-radius: 10px;
+    box-shadow:  -5px 8px 10px rgba(0,0,0,0.4);
+  }
   /* Position the front and back side */
   .flip-card-front, .flip-card-back {
 
@@ -953,7 +958,7 @@ button {
   
   /* Style the front side (fallback if image is missing) */
   .flip-card-front {
-    background-color: rgba(255, 0, 0, 0.521);
+    background-color: rgba(255, 0, 0, 0.116);
     color: black;
   } 
   
@@ -987,38 +992,52 @@ button {
     
   }
 
-  .service-button{
-    width: 170px;
-    margin-left: 15px;
-
-  }
-  .service-button a{
-    position: absolute;
-    right: 25%;
-    width: 50%;
-    margin-top: 2em;
-    font-size: 16px;
-    float: left;
+.service-button a {
+    position: relative;
+    display: flex;
+    font-size: 12px;
+    flex-direction: column;
+    justify-content: center;
     color: #181818;
     border: 2px solid #4aafff;
     text-align: center;
-    padding: 10px 0px;
+    padding: 10px 10px;
     border-radius: 40px;
     text-transform: uppercase;
     font-weight: bold;
-  }
+    margin-inline: 4rem;
+}
 
   @media screen and (max-width: 450px) {
     .flip-card {
-        max-width: max-content;
-        min-width: 250px;
-        max-height:65vh;
-        min-height: 50vh;
+        max-width: 50rem;
+        min-width: 21rem;
+        height: 32rem;
         margin: 1vw;
         margin-top: 1vh;
         margin-bottom: 1vh;
     }
-    
+    .cont-service{
+        font-size: 0.5em;
+        width: 100%;
+        display : flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .service-button a {
+        margin-inline: 1rem;
+    }
+
+  }
+  @media screen and (max-width: 280px) {
+    .flip-card {
+        max-width: 30rem;
+        min-width: 16rem;
+        height: 32rem;
+        margin: 1vw;
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+    }
   }
 
 /* About us section */
