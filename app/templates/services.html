@@ -103,7 +103,7 @@
     </div> -->
     <!--Trial for new card view-->
     <section class="card-flip-section ">
-      <div class="container ">
+      <div class="container-sm	 ">
         <h1 class="what_taital">WHAT WE DO</h1>
         <p class="what_text">It is a long established fact that a reader will be distracted by the readable content of a </p>
         <div class="justify-content-center">
@@ -118,23 +118,90 @@
                   <img class="service-image" src="../static/images/isb_1.jpg" alt="ISB">
                   <div class="service-title">
                     <br>
-                    <span class="front-title">Complete Application Package
-                      Deferred MBA - 3 schools</span>
+                    <span class="front-title">Complete Application Package for only 1 B-school</span>
                   </div>
                   <div class="service-rate">
-                    <br>
-                    Dedicated 1-to-1 workshops<br>
-                    Dedicated 1-to-1 workshops<br>
+                    <ul type="circle">
+                      <li>Dedicated 1-to-1 Session for profile evaluation</li>
+                      <li>10+ hours of dedicated time on persona creation</li>
+                      <li>Personal assistance in filing the applications</li>
+                      <li>Unlimited editing in your essays & SOPs!</li>
+                      <li>Assistance in Extempore, and AWA preparation</li>
+                      <li>Mock interviews</li>
+                      <li>Resume editing</li>
+                    </ul>
+                  </div>
+                  <div class="rate">
+                    <span>INR 35,000/-</span>
+                  </div>
+                  <div class="hover-btn">
+                    <div class="service-button "><a href="#" class="d-flex justify-content-center align-items-center">Contact Us</a></div>
                   </div>
                 </div>
                 <div class="flip-card-back ">
                   <div class="cont-service ">
-                  <br>
-                  <h3>Dedicated 1-to-1 workshops</h3>
-                  <p>Dedicated workshops for different steps of the 8-Step Process with experts.</p>
-                  <h3>Dedicated 1-to-1 workshops</h3>
-                  <p>Dedicated workshops for different steps of the 8-Step Process with experts.</p>
-                  <div class="service-button "><a href="#" class="d-flex justify-content-center align-items-center">Contact Us</a></div>
+                    <div class="service-description">
+                      <ul>                      
+                        <li>
+                          <div class="b-service-title" onclick="HideShowS1()">
+                            Dedicated 1-to-1 Session for profile evaluation
+                          </div>
+                          <div class="b-service-description s1">
+                            We begin with a 1-1 session to first understand your profile, and help you in selecting your 
+                            target B-schools that align with your future goals and aspirations.
+                          </div>
+                        </li>
+                        <li>
+                          <div class="b-service-title" onclick="HideShowS2()">
+                            10+ hours of dedicated time on persona creation
+                          </div>
+                          <div class="b-service-description s2">
+                            Underscoring the importance of bringing out the most impressive version of an applicant through his/her essays, we spend around 10+ hours of time per candidate just on understanding their professional and personal life journey, achievements, failures, and successes.
+                          </div>
+                        </li>
+                        <li>
+                          <div class="b-service-title" onclick="HideShowS3()">
+                            Personal assistance in filing the applications
+                          </div>
+                          <div class="b-service-description s3">
+                            Understanding your apprehensions while filling out the application forms, we assist you in filling the forms of your dream B-school, and also cross-check them before you send them across.
+                          </div>
+                        </li>
+                        <li>
+                          <div class="b-service-title" onclick="HideShowS4()">
+                            Unlimited editing in your essays & SOPs!
+                          </div>
+                          <div class="b-service-description s4">
+                            Motivated by the aim of getting you admitted into the B-school of your choice, we facilitate multiple rounds of essay & SOP reviews, with no limit on the number of edits                          </div>
+                        </li>
+                        <li>
+                          <div class="b-service-title" onclick="HideShowS5()">
+                            Assistance in Extempore, and AWA preparation
+                          </div>
+                          <div class="b-service-description s5">
+                            Accommodating small variations in the selection process of each B-school, we help you prepare for extempore and AWA by providing ample amount of preparatory material, including latest topics on extempore and AWA asked in the B-schools.                          </div>
+                        </li>
+                        <li>
+                          <div class="b-service-title" onclick="HideShowS6()">
+                            Mock interviews
+                          </div>
+                          <div class="b-service-description s6">
+                            Making sure that no stone is left unturned, we prepare you for your interviews on D-day by taking 3 mock sessions- each spanning around 40 mins, followed by another 20 mins of detailed 
+                            feedback, suggestions, and tips.
+                          </div>
+                        </li>
+                        <li>
+                          <div class="b-service-title" onclick="HideShowS7()">
+                            Resume editing
+                          </div>
+                          <div class="b-service-description s7">
+                            Intending to make your profile stand out from the crowd, we help you in creating an impactful and impressive resume for your personal interviews.                          </div>
+                        </li>
+
+                      </ul>
+                    </div>  
+                  
+                  <div class="service-button " id="back-sb"><a href="#" class="">Contact Us</a></div>
                 </div>
               </div>
               </div>
@@ -143,99 +210,414 @@
           </div>
 
 
-          <div class="col-xl-4  col-lg-6  col-12  d-flex justify-content-center align-items-center">
-            <div class="flip-card">
+          <div class=" col-xl-4  col-lg-6 col-12  d-flex justify-content-center align-items-center">
+
+            <div class="flip-card ">
               <div class="flip-card-inner">
                 <div class="flip-card-front">
+
                   <img class="service-image" src="../static/images/isb_1.jpg" alt="ISB">
                   <div class="service-title">
-                    <h3>title</h3>
+                    <br>
+                    <span class="front-title">Complete Application Package for 3 B-schools</span>
+                  </div>
+                  <div class="service-rate">
+                    <ul type="circle">
+                      <li>Dedicated 1-to-1 Session for profile evaluation</li>
+                      <li>10+ hours of dedicated time on persona creation</li>
+                      <li>Personal assistance in filing the applications</li>
+                      <li>Unlimited editing in your essays & SOPs!</li>
+                      <li>Assistance in Extempore, and AWA preparation</li>
+                      <li>Mock interviews</li>
+                      <li>Resume editing</li>
+                    </ul>
+                  </div>
+                  <div class="rate">
+                    <span>INR 55,000/-</span>
+                  </div>
+                  <div class="hover-btn">
+                    <div class="service-button "><a href="#" class="d-flex justify-content-center align-items-center">Contact Us</a></div>
                   </div>
                 </div>
-                <div class="flip-card-back">
-                  <h1>Lorem Ipsum</h1>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-                  <p>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
-                  <div class="service-button "><a href="#" class="d-flex justify-content-center align-items-center">Contact Us</a></div>
+                <div class="flip-card-back ">
+                  <div class="cont-service ">
+                    <div class="service-description">
+                      <ul>                      
+                        <li>
+                          <div class="b-service-title" onclick="HideShowS8()">
+                            Dedicated 1-to-1 Session for profile evaluation
+                          </div>
+                          <div class="b-service-description s8">
+                            We begin with a 1-1 session to first understand your profile, and help you in selecting your target B-schools that align with your future goals and aspirations.
+                          </div>
+                        </li>
+                        <li>
+                          <div class="b-service-title" onclick="HideShowS9()">
+                            10+ hours of dedicated time on persona creation
+                          </div>
+                          <div class="b-service-description s9">
+                            Underscoring the importance of bringing out the most impressive version of an applicant through his/her essays, we spend around 10+ hours of time per candidate just on understanding their professional and personal life journey, achievements, failures, and successes.
+                          </div>
+                        </li>
+                        <li>
+                          <div class="b-service-title" onclick="HideShowS10()">
+                            Personal assistance in filing the applications
+                          </div>
+                          <div class="b-service-description s10">
+                            Understanding your apprehensions while filling out the application forms, we assist you in filling the forms of your dream B-school, and also cross-check them before you send them across.
+                          </div>
+                        </li>
+                        <li>
+                          <div class="b-service-title" onclick="HideShowS11()">
+                            Unlimited editing in your essays & SOPs!
+                          </div>
+                          <div class="b-service-description s11">
+                            Motivated by the aim of getting you admitted into the B-school of your choice, we facilitate multiple rounds of essay & SOP reviews, with no limit on the number of edits                          </div>
+                        </li>
+                        <li>
+                          <div class="b-service-title" onclick="HideShowS12()">
+                            Assistance in Extempore, and AWA preparation
+                          </div>
+                          <div class="b-service-description s12">
+                            Accommodating small variations in the selection process of each B-school, we help you prepare for extempore and AWA by providing ample amount of preparatory material, including latest topics on extempore and AWA asked in the B-schools.                          </div>
+                        </li>
+                        <li>
+                          <div class="b-service-title" onclick="HideShowS13()">
+                            Mock interviews
+                          </div>
+                          <div class="b-service-description s13">
+                            Making sure that no stone is left unturned, we prepare you for your interviews on D-day by taking 3 mock sessions- each spanning around 40 mins, followed by another 20 mins of detailed 
+                            feedback, suggestions, and tips.
+                          </div>
+                        </li>
+                        <li>
+                          <div class="b-service-title" onclick="HideShowS14()">
+                            Resume editing
+                          </div>
+                          <div class="b-service-description s14">
+                            Intending to make your profile stand out from the crowd, we help you in creating an impactful and impressive resume for your personal interviews.                          </div>
+                        </li>
+
+                      </ul>
+                    </div>  
+                  
+                    <div class="service-button " id="back-sb"><a href="#" class="">Contact Us</a></div>
                 </div>
               </div>
+              </div>
             </div>
+
           </div>
 
           <div class=" col-xl-4  col-lg-6 col-12  d-flex justify-content-center align-items-center">
-            <div class="flip-card">
+
+            <div class="flip-card ">
               <div class="flip-card-inner">
                 <div class="flip-card-front">
-                  <img class="service-image" src="../static/images/isb_1.jpg" alt="ISB" >
+
+                  <img class="service-image" src="../static/images/isb_1.jpg" alt="ISB">
                   <div class="service-title">
-                    <h3>title</h3>
+                    <br>
+                    <span class="front-title">Complete Application Package for 5 B-schools</span>
                   </div>
+                  <div class="service-rate">
+                    <ul type="circle">
+                      <li>Dedicated 1-to-1 Session for profile evaluation</li>
+                      <li>10+ hours of dedicated time on persona creation</li>
+                      <li>Personal assistance in filing the applications</li>
+                      <li>Unlimited editing in your essays & SOPs!</li>
+                      <li>Assistance in Extempore, and AWA preparation</li>
+                      <li>Mock interviews</li>
+                      <li>Resume editing</li>
+                    </ul>
+                  </div>
+                  <div class="rate">
+                    <span>INR 75,000/-</span>
+
+                  </div>
+                  <div style="font-size: .7em;">
+                    *This service can also be availed free of cost by booking a mutually suitable time slot with any of our mentors.
+                  </div>
+                  <div class="hover-btn">
+                    <div class="service-button "><a href="#" class="d-flex justify-content-center align-items-center">Contact Us</a></div>
+                  </div>
+
                 </div>
-                <div class="flip-card-back">
-                  <h1>Lorem Ipsum</h1>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-                  <p>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                <div class="flip-card-back ">
+                  <div class="cont-service ">
+                    <div class="service-description">
+                      <ul>                      
+                        <li>
+                          <div class="b-service-title" onclick="HideShowS15()">
+                            Dedicated 1-to-1 Session for profile evaluation
+                          </div>
+                          <div class="b-service-description s15">
+                            We begin with a 1-1 session to first understand your profile, and help you in selecting your target B-schools that align with your future goals and aspirations.
+                          </div>
+                        </li>
+                        <li>
+                          <div class="b-service-title" onclick="HideShowS16()">
+                            10+ hours of dedicated time on persona creation
+                          </div>
+                          <div class="b-service-description s16">
+                            Underscoring the importance of bringing out the most impressive version of an applicant through his/her essays, we spend around 10+ hours of time per candidate just on understanding their professional and personal life journey, achievements, failures, and successes.
+                          </div>
+                        </li>
+                        <li>
+                          <div class="b-service-title" onclick="HideShowS17()">
+                            Personal assistance in filing the applications
+                          </div>
+                          <div class="b-service-description s17">
+                            Understanding your apprehensions while filling out the application forms, we assist you in filling the forms of your dream B-school, and also cross-check them before you send them across.
+                          </div>
+                        </li>
+                        <li>
+                          <div class="b-service-title" onclick="HideShowS18()">
+                            Unlimited editing in your essays & SOPs!
+                          </div>
+                          <div class="b-service-description s18">
+                            Motivated by the aim of getting you admitted into the B-school of your choice, we facilitate multiple rounds of essay & SOP reviews, with no limit on the number of edits                          </div>
+                        </li>
+                        <li>
+                          <div class="b-service-title" onclick="HideShowS19()">
+                            Assistance in Extempore, and AWA preparation
+                          </div>
+                          <div class="b-service-description s19">
+                            Accommodating small variations in the selection process of each B-school, we help you prepare for extempore and AWA by providing ample amount of preparatory material, including latest topics on extempore and AWA asked in the B-schools.                          </div>
+                        </li>
+                        <li>
+                          <div class="b-service-title" onclick="HideShowS20()">
+                            Mock interviews
+                          </div>
+                          <div class="b-service-description s20">
+                            Making sure that no stone is left unturned, we prepare you for your interviews on D-day by taking 3 mock sessions- each spanning around 40 mins, followed by another 20 mins of detailed 
+                            feedback, suggestions, and tips.
+                          </div>
+                        </li>
+                        <li>
+                          <div class="b-service-title" onclick="HideShowS21()">
+                            Resume editing
+                          </div>
+                          <div class="b-service-description s21">
+                            Intending to make your profile stand out from the crowd, we help you in creating an impactful and impressive resume for your personal interviews.                          </div>
+                        </li>
+
+                      </ul>
+                    </div>  
+                  
+                    <div class="service-button " id="back-sb"><a href="#" class="">Contact Us</a></div>
                 </div>
               </div>
+              </div>
             </div>
+
           </div>
+
+
+
 
           <div class=" col-xl-4  col-lg-6 col-12  d-flex justify-content-center align-items-center">
-            <div class="flip-card">
+
+            <div class="flip-card ">
               <div class="flip-card-inner">
                 <div class="flip-card-front">
-                  <img class="service-image" src="../static/images/isb_1.jpg" alt="ISB" >
+
+                  <img class="service-image" src="../static/images/isb_1.jpg" alt="ISB">
                   <div class="service-title">
-                    <h3>title</h3>
+                    <br>
+                    <span class="front-title">Mock Interviews
+                      Select from 1/2/3 Mocks
+                      </span>
+                  </div>
+                  <div class="service-rate">
+                    <ul type="circle">
+                      <li>1 Pre-mock Interview Prep Session</li>
+                      <li>1Extensive list of FAQs in interviews</li>
+                      <li>An hour-long mock interview, including detailed feedback</li>
+
+                    </ul>
+                  </div>
+                  <div class="rate">
+                    <span>INR 2,000/- per mock<br>
+                      INR 5,000/- for 3 mocks
+                      </span>
+                  </div>
+                  <div style="font-size: .7em;">
+                    *This service can also be availed free of cost by booking a mutually suitable time slot with any of our mentors.
+                  </div>
+                  <div class="hover-btn">
+                    <div class="service-button "><a href="#" class="d-flex justify-content-center align-items-center">Contact Us</a></div>
                   </div>
                 </div>
-                <div class="flip-card-back">
-                  <h1>Lorem Ipsum</h1>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-                  <p>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                <div class="flip-card-back ">
+                  <div class="cont-service ">
+                    <div class="service-description">
+                      <ul>                      
+                        <li>
+                          <div class="b-service-title" onclick="HideShowS22()">
+                            1 Pre-mock Interview Prep Session                          </div>
+                          <div class="b-service-description s22">
+                            Our mentors are alumni of top B-schools who have considerable corporate experience working across top global firms. They shall engage with you on a 1-1 call, before conducting your mock interviews, to make you aware of the key aspects that are tested during any B-school interview                           </div>
+                        </li>
+                        <li>
+                          <div class="b-service-title" onclick="HideShowS23()">
+                            Extensive list of FAQs in interviews                          </div>
+                          <div class="b-service-description s23">
+                            You shall also be provided an exhaustive list of easy to anticipate yet critical questions that are frequently asked in an interview.                          </div>
+                        </li>
+                        <li>
+                          <div class="b-service-title" onclick="HideShowS24()">
+                            An hour-long mock interview, including detailed feedback                          </div>
+                          <div class="b-service-description s24">
+                            Your interview shall be conducted by Alumni of top B-schools who have themselves been there and done that! They shall give you a thorough feedback on your interview, sharing the Do’s & Don’ts, and major pitfalls to avoid so you can improve upon those areas before giving your next mock!                          </div>
+                        </li>
+                          
+
+                      </ul>
+                    </div>  
+                  
+                    <div class="service-button " id="back-sb"><a href="#" class="">Contact Us</a></div>
                 </div>
               </div>
+              </div>
             </div>
+
           </div>
 
 
           <div class=" col-xl-4  col-lg-6 col-12  d-flex justify-content-center align-items-center">
-            <div class="flip-card">
+
+            <div class="flip-card ">
               <div class="flip-card-inner">
                 <div class="flip-card-front">
-                  <img class="service-image" src="../static/images/isb_1.jpg" alt="ISB" >
+
+                  <img class="service-image" src="../static/images/isb_1.jpg" alt="ISB">
                   <div class="service-title">
-                    <h3>title</h3>
+                    <br>
+                    <span class="front-title">Resume Writing 
+                      </span>
+                  </div>
+                  <div class="service-rate">
+                    <ul type="circle">
+                      <li>Pre-resume writing session</li>
+                      <li>Resume editing session</li>
+                      <li>Unlimited editing</li>
+
+                    </ul>
+                  </div>
+                  <div class="rate">
+                    <span>INR 3000/-
+                      </span>
+                  </div>
+                  <div class="hover-btn">
+                    <div class="service-button "><a href="#" class="d-flex justify-content-center align-items-center">Contact Us</a></div>
                   </div>
                 </div>
-                <div class="flip-card-back">
-                  <h1>Lorem Ipsum</h1>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-                  <p>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                <div class="flip-card-back ">
+                  <div class="cont-service ">
+                    <div class="service-description">
+                      <ul>                      
+                        <li>
+                          <div class="b-service-title" onclick="HideShowS25()">
+                            Pre-resume writing session
+                          </div>
+                            <div class="b-service-description s25">
+                              Our mentors shall first help you understand the key aspects, and a suitable format of a resume that separates a stellar resume from an ordinary one.                        
+                            </div>
+                          </li>
+                          <div class="b-service-title" onclick="HideShowS26()">
+                              Resume editing session                     
+                          </div>
+                          <div class="b-service-description s26">
+                            Once you have prepared the first copy of your resume based on the initial guidelines, our mentors shall help you curate it further to bring out your best version by appropriately highlighting your strengths, and achievements in STAR format.
+                          </div>
+                          
+                        </li>
+                        <li>
+                          <div class="b-service-title" onclick="HideShowS27()">
+                            Unlimited editing
+                          </div>
+                          <div class="b-service-description s27">
+                            We don’t count the number of times you reach us for support. We allow multiple edits on your resume until we both are satisfied with the quality of your resume.                          
+                          </div>
+                        </li>
+                          
+
+                      </ul>
+                    </div>  
+                  
+                    <div class="service-button " id="back-sb"><a href="#" class="">Contact Us</a></div>
                 </div>
               </div>
+              </div>
             </div>
+
           </div>
 
 
 
           <div class=" col-xl-4  col-lg-6 col-12  d-flex justify-content-center align-items-center">
-            <div class="flip-card">
+
+            <div class="flip-card ">
               <div class="flip-card-inner">
                 <div class="flip-card-front">
-                  <img class="service-image" src="../static/images/isb_1.jpg" alt="ISB" >
+
+                  <img class="service-image" src="../static/images/isb_1.jpg" alt="ISB">
                   <div class="service-title">
-                    <h3>title</h3>
+                    <br>
+                    <span class="front-title">Profile evaluation
+                      </span>
+                  </div>
+                  <div class="service-rate">
+                    <ul type="circle">
+                      <li>Hour-long profile discussion session</li>
+                      <li>Personalized Feedback</li>
+                    </ul>
+                  </div>
+                  <div class="rate">
+                    <span>INR 0/-
+                      </span>
+                  </div>
+                  <div class="hover-btn">
+                    <div class="service-button "><a href="#" class="d-flex justify-content-center align-items-center">Contact Us</a></div>
                   </div>
                 </div>
-                <div class="flip-card-back">
-                  <h1>Lorem Ipsum</h1>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-                  <p>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                <div class="flip-card-back ">
+                  <div class="cont-service ">
+                    <div class="service-description">
+                      <ul>                      
+                        <li>
+                          <div class="b-service-title" onclick="HideShowS28()">
+                            Hour-long profile discussion session
+                          </div>
+                            <div class="b-service-description s28">
+                              In a detailed discussion, our mentors would try to understand the various aspects of your profile, including- your academic history (including your GMAT/GRE score), work experience, and personal attributes. Linking these profile related aspects to your career goals, our mentors would try to pick a few B-schools that should be on your target list.                             
+                            </div>
+                          </li>
+                          <div class="b-service-title" onclick="HideShowS29()">
+                            Personalized Feedback                          
+                          </div>
+                          <div class="b-service-description s29">
+                            Get personalized feedback on ways to improve your profile so as to convert your dream B-school, GMAT strategy, or any other query that you may have.
+                          </div>
+                          
+                        </li>
+                          
+
+                      </ul>
+                    </div>  
+                  
+                    <div class="service-button " id="back-sb"><a href="#" class="">Contact Us</a></div>
                 </div>
               </div>
+              </div>
             </div>
+
           </div>
+
+
+
+
         </div>
       </div>
       </div>
@@ -298,6 +680,7 @@
     <script src="../static/js/owl.carousel.js"></script>
     <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src ="../static/js/service.js"></script>
     <script>
       AOS.init();
     </script> 

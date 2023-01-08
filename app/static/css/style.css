@@ -922,8 +922,8 @@ button {
 .flip-card {
     background-color: transparent;
     max-width: 50rem;
-    min-width: 23rem;
-    height: 28rem;
+    min-width: 25rem;
+    height: 50rem;
     border: 1px transparent #f1f1f1;
     margin: 1vw;
     margin-left: 1vw;
@@ -955,7 +955,6 @@ button {
   .flip-card-front, .flip-card-back {
 
     position: absolute;
-    
     width: 100%;
     height: 100%;
     border-radius: 10px;
@@ -969,6 +968,9 @@ button {
   .flip-card-front {
     background-color: rgba(255, 0, 0, 0.116);
     color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
   } 
   
   /* Style the back side */
@@ -976,11 +978,22 @@ button {
     background-color: dodgerblue;
     color: white;
     transform: rotateY(180deg);
+    height: 50rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
   }
+
+  #back-sb{
+    position: fixed;
+    top: 93%;
+    left: 25%;
+  }
+
 
   .service-image{
     width:inherit;
-    height:50%;
+    height:35%;
     border-radius: 10px;
     image-orientation: calc(blue, inherit);
 
@@ -990,19 +1003,47 @@ button {
   .front-title{
     text-align: center;
     font-weight: bold;
-    font-size: 1em;
+    font-size: 1.1em;
+    /* get complete word on next line */
+    word-wrap: break-word;
   }
 
   .service-rate{
     margin-top: 1.2em;
-    border-top: 1px solid black;
-    width: 75%;
-    margin-left: 12.5%;
+    border-bottom: 1px solid black;
     
+    /* width: 75%;
+    margin-left: 12.5%; */
+    padding-bottom: 2em;
   }
+  .service-rate li{
+    margin-bottom: 0.5em;
+  }
+  .rate{
+    margin-top: 1.5em;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  .b-service-title{
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 1.5em;
+  }
+  .b-service-description{
+    margin-top: 1.5em;
+    font-size: 1em;
+  }
+  
 
+
+
+.hover-btn{
+    margin-top: 1.5em;
+
+    padding-bottom: 2em;
+}
 .service-button a {
-    position: relative;
+    /* position: fixed;
     display: flex;
     font-size: 12px;
     flex-direction: column;
@@ -1014,8 +1055,32 @@ button {
     border-radius: 40px;
     text-transform: uppercase;
     font-weight: bold;
-    margin-inline: 4rem;
+    margin-inline: 4rem; */
+    position: relative;
+    /* display: flex; */
+    font-size: 12px;
+    flex-direction: column;
+    justify-content: center;
+    color: #181818;
+    border: 2px solid #4aafff;
+    text-align: center;
+    padding: 14px 30px;
+    border-radius: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    /* margin-inline: 4rem; */
+    /* background: red; */
+    width: 50%;
+    left: 25%;
+    /* margin-top: 2em; */
+   
 }
+
+.b-service-description{
+    display: none; 
+}
+
+
 
  @media screen and (max-width: 1280px) {
     .card-flip-section{
@@ -1028,7 +1093,7 @@ button {
     .flip-card {
         max-width: 50rem;
         min-width: 21rem;
-        height: 32rem;
+        height: 55rem;
         margin: 1vw;
         margin-top: 1vh;
         margin-bottom: 1vh;
@@ -1041,19 +1106,57 @@ button {
         flex-direction: column;
     }
     .service-button a {
-        margin-inline: 1rem;
+        
+    /* margin-inline: 1rem; */
+    width: 90%;
+    left: 5%;
+    top: 90%;
+    }
+    .flip-card-front, .flip-card-back {
+        height: 55rem;
     }
 
+    
+  #back-sb{
+    position: absolute;
+    top: 93%;
+    left: -5%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
   }
+
+  }
+
   @media screen and (max-width: 280px) {
     .flip-card {
         max-width: 30rem;
         min-width: 16rem;
-        height: 32rem;
+        height: 55rem;
         margin: 1vw;
         margin-top: 1vh;
         margin-bottom: 1vh;
     }
+    .flip-card-front, .flip-card-back {
+        height: 55rem;
+    }
+    .service-button a {
+    /* margin-inline: 1rem; */
+    width: 90%;
+    left: 5%;
+    top: 90%;
+    }
+
+    
+  #back-sb{
+    position: absolute;
+    top: 93%;
+    left: -5%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
   }
 
 /* About us section */
