@@ -966,7 +966,7 @@ button {
   
   /* Style the front side (fallback if image is missing) */
   .flip-card-front {
-    background-color: rgba(255, 0, 0, 0.116);
+    background-color: rgba(255, 0, 0, 0.35);
     color: black;
     display: flex;
     flex-direction: column;
@@ -1114,6 +1114,11 @@ button {
     }
     .flip-card-front, .flip-card-back {
         height: 55rem;
+    }
+    .b-service-title {
+        font-size: 2.2em;
+        font-weight: bold;
+        margin-top: 1.5em;
     }
 
     
