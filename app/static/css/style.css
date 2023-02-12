@@ -29,7 +29,7 @@
 
 * {
      box-sizing: border-box !important;
-     transition: ease all 0.5s;
+     transition: ease all 0.2s;
 }
 
 html {
@@ -928,6 +928,7 @@ button {
     margin: 1vw;
     margin-left: 1vw;
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
+    
   }
   
   /* This container is needed to position the front and back side */
@@ -967,10 +968,12 @@ button {
   /* Style the front side (fallback if image is missing) */
   .flip-card-front {
     background-color: rgba(255, 0, 0, 0.35);
+    /* background-color: rgb(253 206 206); */
     color: black;
     display: flex;
     flex-direction: column;
     justify-content: space-between; 
+    border: 2px solid #828282;
   } 
   
   /* Style the back side */
@@ -982,6 +985,7 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: space-between; 
+    border: 2px solid #676161b5;
   }
 
   #back-sb{
@@ -1025,15 +1029,40 @@ button {
     font-weight: bold;
   }
   .b-service-title{
-    font-size: 1.2em;
+    font-size: 1.1em;
     font-weight: bold;
     margin-top: 1.5em;
+    cursor: pointer;
   }
   .b-service-description{
     margin-top: 1.5em;
     font-size: 1em;
+    display: none; 
   }
   
+  .service-description{
+    margin-left: 2em;
+    margin-right: 2em;
+
+    }
+
+    .service-list li{
+        list-style: none;
+    
+    }
+    .service-list li::before{
+        content: "+";
+        /* background-color: red; */
+        position: fixed;
+        left: 1em;
+        
+
+    }
+    .service-title-list li{
+        list-style: none;
+        /* margin-left: 1em; */
+    }
+
 
 
 
@@ -1076,8 +1105,9 @@ button {
    
 }
 
-.b-service-description{
-    display: none; 
+.s25, .s26, .s27, .s28, .s29{
+    display: block;
+
 }
 
 
@@ -1116,11 +1146,16 @@ button {
         height: 55rem;
     }
     .b-service-title {
-        font-size: 2.2em;
+        font-size: 2em;
         font-weight: bold;
+        margin-bottom: 1.5em;
         margin-top: 1.5em;
-    }
+        cursor: pointer;
 
+    }
+    .b-service-description{
+        font-size: 2em;
+    }
     
   #back-sb{
     position: absolute;
