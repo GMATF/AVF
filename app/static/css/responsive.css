@@ -297,7 +297,8 @@ padding: 126px 40px;
 .footer_images_right { width: 20%; }
 .copyright_section { width: 90%; }
 .padding_left_0 { padding-left: 0px; }
-.mail_section { width: 100%; padding-left: 20px; }
+.mail_section { width: 100%;}
+     /* padding-left: 20px; } */
 
 } 
 

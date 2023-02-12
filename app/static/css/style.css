@@ -31,6 +31,18 @@
      box-sizing: border-box !important;
      transition: ease all 0.2s;
 }
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
 
 html {
      scroll-behavior: smooth;
@@ -745,12 +757,15 @@ button {
 .contact_section2 {
     width: 100%;
     float: left;
-    padding-top: 80px;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 .mail_section {
-    width: 90%;
-    float: left;
-    padding-left: 50px;
+    width: 70%;
+    /* float: center; */
+    /* padding-left: 50px; */
+    margin: 0 auto;
+    padding-inline: 15em;
 }
 .mail_text_1 {
     width: 100%;
@@ -762,6 +777,9 @@ button {
     padding-right: 20px;
     border: 0px;
     padding-top: 20px;
+    text-align: center;
+
+
 }
 .massage_text {
     width: 100%;
@@ -774,14 +792,19 @@ button {
     border: 0px;
     height: 70px;
     padding-top: 30px;
+    text-align: center;
+    margin-bottom: 3rem;
 }
 .send_bt {
+    
     width: 170px;
     float: left;
     margin-top: 40px;
     margin-bottom: 40px;
+    margin-right: 5em;
+    
 }
-.send_bt a {
+/* .send_bt a {
     width: 100%;
     float: left;
     font-size: 20px;
@@ -791,6 +814,28 @@ button {
     padding: 10px 0px;
     text-transform: uppercase;
     border-radius: 30px;
+} */
+.send_bt{
+    width: 50%;
+    font-size: 1.5em;
+    color: #ffffff;
+    text-align: center;
+    background-color: #ff5a58;
+    padding: 10px 0px;
+    text-transform: uppercase;
+    border-radius: 30px;
+    border: none;
+    margin-top: 1em;
+    margin-left: 25%;
+}
+
+.whatsapp-text{
+    color:#ffffff; 
+    text-decoration:none; 
+}
+.whatsapp-text:hover{
+    color:#ffffff; 
+    text-decoration:none; 
 }
 
 .footer_section{
@@ -1117,9 +1162,22 @@ button {
 
 
 
+ @media screen and (max-width: 1630px) {
+
+    
+ }
  @media screen and (max-width: 1280px) {
     .card-flip-section{
     background-repeat: no-repeat
+    }
+    .mail_section{
+        width: 100%;
+      }
+    .send_bt{
+        width: 70%;
+        margin-top: 1em;
+        margin-left: 15%;
+
     }
     
  }
@@ -1171,7 +1229,10 @@ button {
     width: 100%;
   }
 
+
   }
+
+
 
   @media screen and (max-width: 280px) {
     .flip-card {
