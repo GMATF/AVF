@@ -223,7 +223,7 @@ button {
 }
 
 .layout_padding {
-     padding-top: 90px;
+     padding-top: 5rem;
      padding-bottom: 0px;
 }
 .padding_0{
@@ -765,7 +765,7 @@ button {
     /* float: center; */
     /* padding-left: 50px; */
     margin: 0 auto;
-    padding-inline: 15em;
+
 }
 .mail_text_1 {
     width: 100%;
@@ -1173,9 +1173,9 @@ button {
         width: 100%;
       }
     .send_bt{
-        width: 70%;
+        width: 30%;
         margin-top: 1em;
-        margin-left: 15%;
+        margin-left: 35%;
 
     }
     
@@ -1219,11 +1219,18 @@ button {
         font-size: 2em;
     }
     .mail_section {
-        width: 90%;
+        width: 100%;
         /* float: center; */
         /* padding-left: 50px; */
         margin: 0 auto;
-        padding-inline: 5rem;
+        padding: 0;
+        
+    }
+    .send_bt{
+        width: 70%;
+        margin-top: 1em;
+        margin-left: 15%;
+
     }
   #back-sb{
     position: absolute;
