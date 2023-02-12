@@ -239,7 +239,7 @@ button {
 .header_bg{
   width: 100%;
   float: left;
-  background-color: #f8f9fa!important;
+  background-color: #f8f9faa6!important;
 }
 .header_left{
     width: 50%;
@@ -1156,10 +1156,9 @@ button {
 
 }
 
-.coach-aboutus{
-    
+.about-founder-image{
+    aspect-ratio: 1 / 1;
 }
-
 
 
  @media screen and (max-width: 1630px) {
@@ -1285,8 +1284,8 @@ button {
 }
 
 .card img{
-    width: 80px;
-    height: 80px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     background-image: linear-gradient(60deg, rgba(255, 0, 0, 0.521), dodgerblue);
 
