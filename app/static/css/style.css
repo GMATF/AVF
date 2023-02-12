@@ -1218,7 +1218,13 @@ button {
     .b-service-description{
         font-size: 2em;
     }
-    
+    .mail_section {
+        width: 90%;
+        /* float: center; */
+        /* padding-left: 50px; */
+        margin: 0 auto;
+        padding-inline: 5rem;
+    }
   #back-sb{
     position: absolute;
     top: 93%;
