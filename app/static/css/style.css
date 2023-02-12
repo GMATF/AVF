@@ -968,12 +968,13 @@ button {
   /* Style the front side (fallback if image is missing) */
   .flip-card-front {
     background-color: rgba(255, 0, 0, 0.35);
+    border: 2px solid #828282;
     /* background-color: rgb(253 206 206); */
     color: black;
     display: flex;
     flex-direction: column;
     justify-content: space-between; 
-    border: 2px solid #828282;
+
   } 
   
   /* Style the back side */
@@ -1108,6 +1109,10 @@ button {
 .s25, .s26, .s27, .s28, .s29{
     display: block;
 
+}
+
+.coach-aboutus{
+    
 }
 
 
@@ -1257,7 +1262,7 @@ button {
     align-items: center;
     justify-content: space-between;
     text-align: center;
-    height: 300px;
+    height: 55rem;
 }
 
 .card:hover > .link{
@@ -1287,7 +1292,8 @@ button {
         align-items: center;
         justify-content: space-between;
         text-align: center;
-        height: 460px;
+        height: 55rem;
+        
     }
  }
 
