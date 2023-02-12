@@ -227,7 +227,7 @@ button {
 .header_bg{
   width: 100%;
   float: left;
-  background-color: #f8f9fa!important;
+  background-color: #f8f9faa6!important;
 }
 .header_left{
     width: 50%;
