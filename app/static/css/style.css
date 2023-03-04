@@ -461,19 +461,31 @@ button {
     float: left;
     margin-top: 40px;
 }
-.box_main {
+.box_mains {
     width: 100%;
     float: left;
     background-color: #1b5a8d;
     border-radius: 10px;
     padding: 30px 0px;
+    margin-bottom: 1vh;
 }
-.box_main:hover{
+.boxn{
+    width: 100%;
+    float: left;
+    background-color: #ff5a58;
+    border-radius: 10px;
+    padding: 30px 0px;
+    margin-bottom: 1vh;
+}
+.box_mains:hover{
     background-color: #ff5a58;
 }
-.box_main.active {
-    background-color: #ff5a58;
+.boxn:hover{
+    background-color: #1b5a8d;
 }
+/* .box_main.active {
+    background-color: #ff5a58;
+} */
 .icon_1 {
     width: 100%;
     float: left;
@@ -495,6 +507,8 @@ button {
     color: #ffffff;
     text-align: center;
     margin-left: 0px;
+    padding: 1em;
+
 }
 .moremore_bt_1 {
     width: 170px;
@@ -576,17 +590,6 @@ button {
   text-align: center;
 }
 
-.container_1:hover .image {
-  opacity: 0.3;
-  background-color: rgb(71.0.5.9.5)!important;
-
-}
-
-.container_1:hover .middle {
-  opacity: 1;
-  z-index: 2;
-}
-
 .text {
   color: white;
   font-size: 16px;
@@ -615,9 +618,7 @@ button {
     height: 100%;
 }
 
-.container_1:hover::after{
-    display: block;
-}
+
 .fact_text{
     width: 100%;
     float: left;
@@ -1157,8 +1158,8 @@ button {
    
 }
 
-.s25, .s26, .s27, .s28, .s29{
-    display: block;
+.s25, .s26, .s27, .s28, .s29, .s23, .s22, .s24{
+    display : block;
 
 }
 
