@@ -276,6 +276,8 @@ button {
     width: 100%;
     float: left;
     padding-left: 100px;
+    margin-bottom: 4em;
+    
 }
 .banner_taital {
     width: 100%;
@@ -302,7 +304,6 @@ button {
 .more_bt {
     width: 170px;
     float: left;
-
 }
 
 
