@@ -854,6 +854,7 @@ button {
   text-align: center;
 }
 
+
 .footer-copyright-wrapper {
   margin-left: auto;
   margin-right: auto;
@@ -870,6 +871,16 @@ button {
 }
 
 .footer-copyright-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-copyright-link:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-copyright-link:visited {
   color: #fff;
   text-decoration: none;
 }
